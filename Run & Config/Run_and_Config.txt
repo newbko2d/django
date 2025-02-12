@@ -1,0 +1,14 @@
+
+1) Create enviroment : python -m venv 'enviroment_name'
+
+2) activate enviroment : 'enviroment_path'\scripts\activate
+
+3) to create django project : django-admin startproject 'project_name'
+
+4) run project : python manage.py runserver
+
+5) migrate : python manage.py migrate
+
+6) make superuser : python manage.py createsuperuser
+username : admin
+pswd : clover21234

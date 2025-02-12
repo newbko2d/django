@@ -1,0 +1,30 @@
+
+1) Open Github.com 
+
+2) Create Project/repository
+
+3) Create branches
+
+4) open git bash
+
+5) go to project path using cd or right click in project folder to open git bash
+
+6) git init : to initialize git
+
+7) git status : to check for untracked files
+
+8) nano .gitignore : creating git ignore files to ignore particular file or folder
+
+9) add folder path with / for directory and save with ctrl+x and Y
+
+10) go to github > click on code(green in color) > copy path
+
+11) git remote add origin "https://github.com/niru2601/django.git" : add github url to local 
+
+12) git remote -v : to check url added or not 
+
+13) git checkout -b 'new_branch_name' : to create new branch in gitbash
+
+14) git push origin main : push the code to github
+
+15) 
