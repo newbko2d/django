@@ -23,8 +23,18 @@
 
 12) git remote -v : to check url added or not 
 
+13) git add . : '.' inidcates add file > git add used to add files form working to stagging area
+
+14) git commit -m "comment" : commit the code and write the message in double quites ""
+
 13) git checkout -b 'new_branch_name' : to create new branch in gitbash
 
 14) git push origin main : push the code to github
 
-15) 
+15) git push origin main --force : rewrite git local history "Commits"
+
+16) git checkout "branch_name" : switch between two branches
+
+17) git branch -D "branch_name" : to delete branch form gitbash 
+
+18) go to github and create new pull request : 
