@@ -20,6 +20,8 @@
 10) go to github > click on code(green in color) > copy path
 
 11) git remote add origin "https://github.com/niru2601/django.git" : add github url to local 
+ ----------- git remote set-url origin "https://github.com/newbko2d/django.git" : chnage repository path 
+
 
 12) git remote -v : to check url added or not 
 
@@ -37,4 +39,4 @@
 
 17) git branch -D "branch_name" : to delete branch form gitbash 
 
-18) go to github and create new pull request : 
+18) go to github and create new pull request > select branches from where you need to pull the code 
