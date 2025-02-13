@@ -15,7 +15,7 @@
 
 8) nano .gitignore : creating git ignore files to ignore particular file or folder
 
-9) add folder path with / for directory and save with ctrl+x and Y
+9) add folder path with forward slash "/" for directory and save with ctrl+x and Y
 
 10) go to github > click on code(green in color) > copy path
 
