@@ -1,4 +1,5 @@
-{% include "header.html" %}
+{% extends "base.html" %}
+{% block content %}
   <!-- about section -->
 
   <section class="about_section layout_padding long_section">
@@ -19,7 +20,7 @@
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
             </p>
-            <a href="">
+            <a href="/blog/">
               Read More
             </a>
           </div>
@@ -29,5 +30,5 @@
   </section>
 
   <!-- end about section -->
-
-{% include "footer.html" %}
+   
+{% endblock %}
