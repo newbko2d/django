@@ -19,16 +19,16 @@ from django.urls import path
 from mkt import views
 
 urlpatterns = [
-    path('',views.index),
-    path('furniture/',views.furniture),
-    path('contact/',views.contact),
-    path('blog/',views.blog),
-    path('about/',views.about),
+    path('',views.index,name='home'),
+    path('furniture/',views.furniture,name='furniture'),
+    path('contact/',views.contact,name='contact'),
+    path('blog/',views.blog,name='blog'),
+    path('about/',views.about,name='about'),
     # path('',views.home),
-    path('admin/', admin.site.urls),
-    path('about-us/',views.about_us),
-    path('course/',views.course),
+    # path('admin/', admin.site.urls),
+    # path('about-us/',views.about_us),
+    # path('course/',views.course),
     # path('course_details/<slug:courseid>',views.coursedetails),
-    path('course_details/<courseid>',views.coursedetails),
+    # path('course_details/<courseid>',views.coursedetails),
 
 ]
