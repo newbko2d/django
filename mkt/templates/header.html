@@ -53,23 +53,26 @@
             
             <ul class="navbar-nav  ">
               <li class="nav-item ">
-                <li class="{% if request.path == '/' %} active {% endif %}"><a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+                {% url 'home' as hm %}
+                <li class="{% if request.path == hm %} active {% endif %}"><a class="nav-link" href="{{hm}}">Home <span class="sr-only">(current)</span></a>
                 </li>
               </li>
               <li class="nav-item active">
-                <li class="{% if request.path == 'about/' %} active {% endif %}"><a class="nav-link" href="{% url 'about' %}"> About</a>
+                <li class="{% if request.path == '/about/' %} active {% endif %}"><a class="nav-link" href="{% url 'about' %}"> About</a>
                 </li> 
               </li>
               <li class="nav-item">
-                <li class="{% if request.path == 'furniture/' %} active {% endif %}"><a class="nav-link" href="/furniture/">Furnitures</a>
+                {% url 'furniture' as furn %}
+                <li class="{% if request.path == furn %} active {% endif %}"><a class="nav-link" href="{{furn}}">Furnitures</a>
                 </li>
               </li>
               <li class="nav-item">
-                <li class="{% if request.path == 'blog/' %} active {% endif %}"><a class="nav-link" href="/blog/">Blog</a>
+                <li class="{% if request.path == '/blog/' %} active {% endif %}"><a class="nav-link" href="/blog/">Blog</a>
                 </li>
               </li>
               <li class="nav-item">
-                <li class="{% if request.path == 'contact/' %} active {% endif %}"><a class="nav-link" href="/contact/">Contact Us</a>
+                {% url 'contact' as cnt %}
+                <li class="{% if request.path == cnt %} active {% endif %}"><a class="nav-link" href="{{cnt}}">Contact Us</a>
                 </li>
               </li>
             </ul>
