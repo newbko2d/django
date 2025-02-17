@@ -846,3 +846,17 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+header .active a{
+  background-color: #6bb7be;
+  color: white;
+  
+}
+
+header .active a:hover{
+  background-color: black;
+  color: white;
+  -ms-layout-grid: 1px;
+  -ms-layout-grid-line: auto;
+}
